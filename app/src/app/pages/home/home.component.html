@@ -27,7 +27,7 @@
             <button md-icon-button (click)="sendText()">
                 <md-icon>send</md-icon>
             </button>
-            <button md-mini-fab [color]="isRecording ? 'warn':'primary'" (click)="startRecording()">
+            <button md-mini-fab *ngIf="audioStream" [color]="isRecording ? 'warn':'primary'" (click)="startRecording()">
                 <md-icon>mic</md-icon>
             </button>
             <button md-mini-fab color="accent" *ngIf="videoStream" (click)="takePicture()">

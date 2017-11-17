@@ -21,8 +21,8 @@ export class HomeComponent implements OnInit {
     // input
     public textInput: string = "";
     public isRecording: boolean = false;
-    private audioStream: any; // usermedia stream
-    private videoStream: any; // usermedia stream
+    public audioStream: any; // usermedia stream
+    public videoStream: any; // usermedia stream
     private video: any; // video html element
     private chunks: any = [];
 
