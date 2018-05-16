@@ -12,7 +12,7 @@ The context for your new service will come from your BMW: user profile of the dr
 
 ## Example App
 
-[Demo](https://bmw.hackathons.de/app)
+[Demo](https://bmw-data-science.github.io/hackatnight/home)
 
 ## FAQs
 
