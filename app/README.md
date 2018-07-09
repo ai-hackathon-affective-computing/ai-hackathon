@@ -5,7 +5,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Docker development (NO INSTALLATION REQUIREMENTS)
 
 ### Development Alternative 1:
-Run `docker-compose -f docker-compose.dev.yml up`.
+Run `docker-compose -f docker-compose.dev.yml up`
 
 ### Development Alternative 2:
 Build image with `docker build -f Dockerfile-dev -t webapp-starter-dev .` (be sure local `node_modules` is non-existent).
