@@ -21,7 +21,7 @@ export class HomeComponent implements OnInit {
     public textInput: string = "";
     public isRecording: boolean = false;
     private audioStream: any; // usermedia stream
-    private videoStream: any; // usermedia stream
+    public videoStream: any; // usermedia stream
     private video: any; // video html element
     private chunks: any = [];
 
@@ -47,7 +47,7 @@ export class HomeComponent implements OnInit {
     }
 
     private setupAwsLex() {
-        const poolId = 'eu-west-1_waFNOtm4W';
+        const poolId = 'eu-west-1:d728347e-1e17-45ff-9d2d-d1df2cdae33c';
         const region = 'eu-west-1';
         const credentials = new CognitoIdentityCredentials(
             {IdentityPoolId: poolId},
