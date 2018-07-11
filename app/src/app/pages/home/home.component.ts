@@ -47,8 +47,8 @@ export class HomeComponent implements OnInit {
     }
 
     private setupAwsLex() {
-        const poolId = 'us-east-1:d1c2cef8-114c-4a99-b569-e7d63dbb9955';
-        const region = 'us-east-1';
+        const poolId = 'eu-west-1_waFNOtm4W';
+        const region = 'eu-west-1';
         const credentials = new CognitoIdentityCredentials(
             {IdentityPoolId: poolId},
             {region},
@@ -58,7 +58,7 @@ export class HomeComponent implements OnInit {
         this.rekognitionClient = new Rekognition(awsConfig);
 
         this.lexClient = new LexClient({
-            botName: "Joshua",
+            botName: "bmw_example_bot",
             botAlias: "$LATEST",
             userId: null,
             lexRuntimeClient: lexRuntimeClient
