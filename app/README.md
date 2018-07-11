@@ -5,14 +5,14 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Docker development (NO INSTALLATION REQUIREMENTS)
 
 ### Development Alternative 1:
-Run `docker-compose -f docker-compose.dev.yml up`.
+Run `docker-compose -f docker-compose.dev.yml up`
 
 ### Development Alternative 2:
 Build image with `docker build -f Dockerfile-dev -t webapp-starter-dev .` (be sure local `node_modules` is non-existent).
 Then run image by executing `docker run -p 4200:4200 -v ./src:/app/src webapp-starter-dev` which will watch your changes and expose port `4200`.
 
 ### Production
-In Production run container with docker-compose: `docker-compose up`.
+In Production run container with docker-compose: `docker-compose up`
 
 ## Installation requirements
 
