@@ -15,7 +15,3 @@ What should the Digital Companion of the future be able to do? If you are into c
 ## Example App
 
 [Demo](https://bmw-data-science.github.io/ai-hackathon)
-
-## FAQs
-
-[FAQ (Wiki)](https://github.com/bmw-data-science/ai-hackathon/wiki/FAQ)
