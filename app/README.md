@@ -24,7 +24,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Deploy to gh-pages
 
-Build for prod env: `ng build --base-href /hackatnight/ --deploy-url /hackatnight/ --prod`
+Build for prod env: `ng build --base-href /ai-hackathon/ --deploy-url /ai-hackathon/ --prod`
 
 Push content of `dist` to root(`/`) on `gh-pages` branch.
 
